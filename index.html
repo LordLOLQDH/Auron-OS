@@ -2,57 +2,74 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Auron OS</title>
+  <title>Auron OS — Built for Control</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #0f0f0f;
-      color: white;
+      background: #0d0d0d;
+      color: #eaeaea;
+      line-height: 1.6;
     }
 
     header {
+      padding: 100px 20px;
       text-align: center;
-      padding: 80px 20px;
-      background: linear-gradient(135deg, #111, #1c1c1c);
+      background: radial-gradient(circle at top, #1a1a1a, #000);
     }
 
     h1 {
-      font-size: 60px;
+      font-size: 64px;
       margin: 0;
-      letter-spacing: 3px;
+      letter-spacing: 4px;
     }
 
     .motto {
       margin-top: 15px;
       font-size: 18px;
-      color: #aaa;
+      color: #00ff99;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 25px;
+      background: #00ff99;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
     }
 
     .section {
-      padding: 60px 20px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
+      padding: 60px 20px;
     }
 
     h2 {
       color: #00ff99;
+      margin-top: 40px;
+    }
+
+    p {
+      color: #ccc;
     }
 
     .card {
       background: #1a1a1a;
       padding: 20px;
-      margin: 15px 0;
       border-radius: 10px;
+      margin: 15px 0;
     }
 
     footer {
       text-align: center;
-      padding: 30px;
+      padding: 40px;
       color: #666;
-      font-size: 14px;
+      font-size: 13px;
     }
 
     .highlight {
@@ -70,40 +87,77 @@
   <div class="motto">
     Auron. Du setzt die Regeln. Du bestimmst den Style.
   </div>
+
+  <!-- DOWNLOAD BUTTON -->
+  <a class="btn" href="Adam_OS_05_2026_v1.0_startup.iso" download>
+    📥 Download Auron OS ISO
+  </a>
 </header>
 
 <div class="section">
 
   <h2>🚀 Was ist Auron OS?</h2>
   <div class="card">
-    Auron OS ist ein minimalistisches, performance-orientiertes Linux-basiertes Betriebssystem.
-    Es wurde entwickelt für Nutzer, die Kontrolle, Geschwindigkeit und Einfachheit bevorzugen.
-  </div>
-
-  <h2>⚙️ Philosophie</h2>
-  <div class="card">
-    Kein unnötiger Ballast. Keine Ablenkung. Nur Werkzeuge, die du wirklich brauchst.
+    Auron OS ist ein modernes, minimalistisches und hochoptimiertes Betriebssystem,
+    basierend auf Linux Mint, entwickelt für Nutzer, die maximale Kontrolle über ihr System wollen.
     <br><br>
-    <span class="highlight">Auron ist gebaut für Kontrolle.</span>
+    Es ist kein klassisches Standard-Linux, sondern ein bewusst gestaltetes System-Remix mit eigener Identität,
+    eigener Struktur und einem klaren Fokus: Geschwindigkeit, Kontrolle und Effizienz.
   </div>
 
-  <h2>🧠 Features</h2>
+  <h2>🧠 Philosophie</h2>
   <div class="card">
-    ✔ Minimalistisches Systemdesign<br>
-    ✔ Schnelle Bootzeiten<br>
-    ✔ Entwicklerfreundliches Terminal<br>
-    ✔ Optimierte Standard-Apps<br>
-    ✔ Eigenes Branding & UI
-  </div>
-
-  <h2>💻 Terminal Power</h2>
-  <div class="card">
-    Auron OS setzt auf volle Kontrolle über das Terminal:
+    Viele Betriebssysteme sind überladen, langsam oder unnötig komplex.
+    Auron OS verfolgt einen anderen Ansatz:
     <br><br>
-    sudo apt update & upgrade<br>
-    htop – Systemmonitor<br>
-    neovim – Coding<br>
-    curl & wget – Netzwerktools
+    <span class="highlight">
+      Ein System sollte nicht entscheiden, wie du arbeitest — du solltest es tun.
+    </span>
+    <br><br>
+    Deshalb entfernt Auron OS alles Überflüssige und lässt nur das übrig, was wirklich gebraucht wird.
+  </div>
+
+  <h2>⚙️ System Design</h2>
+  <div class="card">
+    ✔ Minimalistische Desktop-Umgebung (Cinnamon)<br>
+    ✔ Entfernte Standard-Apps für mehr Geschwindigkeit<br>
+    ✔ Optimierte Standard-Toolchain für Entwickler<br>
+    ✔ Eigenes Branding und UI-System<br>
+    ✔ Fokus auf Terminal und Effizienz
+  </div>
+
+  <h2>💻 Standard Software</h2>
+  <div class="card">
+    Auron OS enthält eine bewusst ausgewählte Tool-Suite:
+    <br><br>
+    - Chromium (Browser)<br>
+    - VLC Media Player<br>
+    - GIMP (Bildbearbeitung)<br>
+    - OBS Studio (Recording & Streaming)<br>
+    - Neovim (Code Editor)<br>
+    - Htop (Systemmonitor)<br>
+    - Flameshot (Screenshots)<br>
+    - Curl & Wget (Netzwerk Tools)
+  </div>
+
+  <h2>📊 Performance</h2>
+  <div class="card">
+    Durch das Entfernen unnötiger Hintergrunddienste bietet Auron OS:
+    <br><br>
+    ✔ Schnellere Bootzeiten<br>
+    ✔ Weniger RAM-Verbrauch<br>
+    ✔ Höhere Reaktionsgeschwindigkeit<br>
+    ✔ Stabilität auch auf älterer Hardware
+  </div>
+
+  <h2>🧩 Terminal Kontrolle</h2>
+  <div class="card">
+    Auron OS ist stark terminal-orientiert und ermöglicht volle Systemkontrolle:
+    <br><br>
+    <span class="highlight">System Update:</span> sudo apt update && sudo apt upgrade<br>
+    <span class="highlight">Monitoring:</span> htop<br>
+    <span class="highlight">Install:</span> sudo apt install paket<br>
+    <span class="highlight">Network:</span> ping google.com / curl ifconfig.me
   </div>
 
   <h2>🔥 Motto</h2>
@@ -113,10 +167,19 @@
     </span>
   </div>
 
+  <h2>📦 Download</h2>
+  <div class="card">
+    Lade die aktuelle Version direkt herunter und teste Auron OS selbst:
+    <br><br>
+    <a class="btn" href="Adam_OS_05_2026_v1.0_startup.iso" download>
+      📥 ISO herunterladen
+    </a>
+  </div>
+
 </div>
 
 <footer>
-  © 2026 Auron OS — Built for control
+  © 2026 Auron OS — Built for control. Linux-based system remix.
 </footer>
 
 </body>
