@@ -1,4 +1,4 @@
-ADAM OS 1.0 "First Build"
+AURON OS 1.0 "First Build"
 =========================
 
 Was ist Adam OS?
