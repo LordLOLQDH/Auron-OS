@@ -1,43 +1,44 @@
-> 🚧 **Pre-Release:** Auron OS ISO kommt Freitag 08.05.2026. 
+> 🚧 **Pre-Release:** Auron OS 1.0 ISO kommt Freitag 08.05.2026. 
 > 
-> Aktuell nur Konzept + Roadmap. Diskutier mit: https://github.com/LordLOLQDH/Auron-OS/discussions
+> Diskutier die Roadmap: https://github.com/LordLOLQDH/Auron-OS/discussions
 > 
 > ⭐ Star für Download-Ping beim Release.
 
 # Auron OS
 
-**Auron OS** ist eine angepasste Linux-Distribution basierend auf Linux Mint / Ubuntu. 
+**Auron OS** ist eine angepasste Linux Mint 22 Distribution für Developer und Gamer.
 
-Ziel: Out-of-the-box fertig für Developer, Gamer und Power-User. Kein 3h Setup nach der Installation.
+Ziel: Nach der Installation sofort loslegen. Kein 3h Setup.
 
-### Was ist anders als Mint/Ubuntu?
+### Was ist anders als Mint?
 
-- **Vorinstalliert:** Flatpak, Lutris, VS Code, Docker, Nvidia-Treiber
-- **Optimiert:** Low-Latency Kernel, ZRAM, Gaming-Tweaks
-- **Schön:** Custom Theme, Icons, Wallpaper ohne Bloat
-- **GUI-Installer:** Wähl deine Software bei der Installation
+- **Vorinstalliert:** Steam, Lutris, VS Code, Docker, Nvidia-Treiber, XanMod-Kernel
+- **Optimiert:** Low-Latency, ZRAM, Gaming-Tweaks, Flatpak statt Snap
+- **Schön:** Custom Theme + Icons ohne Bloat
+- **Privacy:** Keine Telemetrie, keine Amazon-Suche
 
 ### Status
 
-**Pre-Release.** Erste ISO kommt am 08.05.2026.
+**Aktuell:** Pre-Release. Baue 1.0 "Genesis" mit Cubic.
 
-Ich baue gerade die erste Version. Sag mir was REIN MUSS bevor ich das ISO finalisiere: https://github.com/LordLOLQDH/Auron-OS/discussions
+**Release 1.0:** 08.05.2026 → Fertige ISO zum Download
 
-### Roadmap
-
-- [ ] Auron OS 1.0 "Genesis" - Basis Linux Mint 22
-- [ ] Gaming Edition mit Steam, Lutris, Wine
-- [ ] Developer Edition mit Docker, VS Code, Python
-- [ ] Deine Idee → Discussions
+**Geplant 2.0:** Eigenen ISO-Builder direkt in Auron OS integrieren. Dann kann jeder seinen Remix bauen.
 
 ### Download
 
 Ab 08.05.2026 hier: [Releases](https://github.com/LordLOLQDH/Auron-OS/releases)
 
+### Roadmap
+
+- [x] **v1.0 "Genesis"** - 08.05.2026 - Linux Mint 22 Cinnamon, Gaming + Dev Tools
+- [ ] **v1.1** - KDE/XFCE Varianten wenn Nachfrage da ist
+- [ ] **v2.0** - Integrierter ISO-Builder mit GUI. Bau deinen eigenen Auron-Remix in 20min.
+
 ### Contributing
 
-Siehe [CONTRIBUTING.md](CONTRIBUTING.md). Vor allem Tester + Feedback gesucht.
+Beta-Tester und Feedback gesucht: [Discussions](https://github.com/LordLOLQDH/Auron-OS/discussions)
 
 ### License
 
-GPLv3 - Siehe [LICENSE](LICENSE)
+GPLv3
