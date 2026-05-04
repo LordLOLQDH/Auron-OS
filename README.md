@@ -1,9 +1,3 @@
-_Alles klar. Hier die komplette `README.md` für Auron OS. 1:1 kopieren und die alte ersetzen._
-
-*GitHub → http://README.md → Stift-Icon → Alles löschen → Das hier rein → Commit*
-
----
-
 # Auron OS
 
 **Build custom Linux ISOs in 20min. No Cubic pain. No Terminal.**
