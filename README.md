@@ -1,37 +1,42 @@
-> 🚧 **Pre-Release:** Code kommt Freitag 08.05.2026. 
+> 🚧 **Pre-Release:** Auron OS ISO kommt Freitag 08.05.2026. 
 > 
-> Aktuell nur Konzept + Doku. Diskutier die Roadmap hier: https://github.com/LordLOLQDH/Auron-OS/discussions
+> Aktuell nur Konzept + Roadmap. Diskutier mit: https://github.com/LordLOLQDH/Auron-OS/discussions
 > 
-> ⭐ Star das Repo wenn du beim Launch dabei sein willst.
+> ⭐ Star für Download-Ping beim Release.
 
-# Auron OS - Custom Linux ISO Builder
+# Auron OS
 
-**Auron OS** ist ein GUI-Tool mit dem du in 20 Minuten deine eigene Linux Mint/Ubuntu ISO bauen kannst. Kein Terminal, kein Cubic-Gefummel.
+**Auron OS** ist eine angepasste Linux-Distribution basierend auf Linux Mint / Ubuntu. 
 
-### Warum Auron OS?
+Ziel: Out-of-the-box fertig für Developer, Gamer und Power-User. Kein 3h Setup nach der Installation.
 
-Cubic ist mächtig, aber hässlich und kompliziert. Auron OS gibt dir:
-- **GUI für alles:** Pakete wählen, Desktop anpassen, User anlegen
-- **Schnell:** Von 0 zur fertigen ISO in ~20min
-- **Reproduzierbar:** Export als JSON-Config für CI/CD
+### Was ist anders als Mint/Ubuntu?
+
+- **Vorinstalliert:** Flatpak, Lutris, VS Code, Docker, Nvidia-Treiber
+- **Optimiert:** Low-Latency Kernel, ZRAM, Gaming-Tweaks
+- **Schön:** Custom Theme, Icons, Wallpaper ohne Bloat
+- **GUI-Installer:** Wähl deine Software bei der Installation
 
 ### Status
 
-**Aktuell Pre-Release.** Code Drop am 08.05.2026. 
+**Pre-Release.** Erste ISO kommt am 08.05.2026.
 
-Ich sammle gerade Feature-Wünsche bevor ich code. Sag mir was du brauchst: https://github.com/LordLOLQDH/Auron-OS/discussions
+Ich baue gerade die erste Version. Sag mir was REIN MUSS bevor ich das ISO finalisiere: https://github.com/LordLOLQDH/Auron-OS/discussions
 
 ### Roadmap
 
-- [ ] Linux Mint 22 Support
-- [ ] Ubuntu 24.04 Support  
-- [ ] Flatpak Integration
-- [ ] Custom Wallpaper + Themes
-- [ ] Deine Idee hier → Discussions
+- [ ] Auron OS 1.0 "Genesis" - Basis Linux Mint 22
+- [ ] Gaming Edition mit Steam, Lutris, Wine
+- [ ] Developer Edition mit Docker, VS Code, Python
+- [ ] Deine Idee → Discussions
+
+### Download
+
+Ab 08.05.2026 hier: [Releases](https://github.com/LordLOLQDH/Auron-OS/releases)
 
 ### Contributing
 
-Siehe [CONTRIBUTING.md](CONTRIBUTING.md). PRs willkommen sobald Code live ist.
+Siehe [CONTRIBUTING.md](CONTRIBUTING.md). Vor allem Tester + Feedback gesucht.
 
 ### License
 
