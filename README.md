@@ -8,7 +8,7 @@
 
 > War genervt von Cubic. 15 Klicks, kaputtes Chroot, 2h für eine ISO. 
 > 
-> Auron OS: Distro wählen → Pakete anklicken → Build. Fertig in 20min.
+> Auron OS: Distro wählen → Pakkete anklicken → Build. Fertig in 20min.
 
 **Demo:** GIF vom kompletten Build kommt heute Abend.
 
